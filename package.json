@@ -4,11 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "netlify dev",
+    "deploy": "netlify deploy --prod"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "cors-anywhere": "^0.4.4"
-  }
+  "license": "ISC"
 }
